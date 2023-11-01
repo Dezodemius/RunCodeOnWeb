@@ -1,0 +1,8 @@
+﻿<#@ template language="C#" #>
+<#@ output extension=".cs" #>
+namespace {@taskName}Project;
+
+public class {@taskName}
+{
+
+}
