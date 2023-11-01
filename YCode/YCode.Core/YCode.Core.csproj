@@ -7,4 +7,11 @@
         <OutputType>Library</OutputType>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Update="CSharpCodeGeneration\Templates\Test.tt">
+        <Generator>TextTemplatingFileGenerator</Generator>
+        <LastGenOutput>Test.cs</LastGenOutput>
+      </None>
+    </ItemGroup>
+
 </Project>
