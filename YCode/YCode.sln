@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YCode.Core", "YCode.Core\YC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YCode.ConsoleRunner", "YCode.ConsoleRunner\YCode.ConsoleRunner.csproj", "{CAC1031A-1F78-42B5-B926-58F757992F91}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestCode", "TestCode", "{29F1652B-2506-4AAE-9827-81CA2EA2175F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{75CD48CB-646D-42C8-BD82-58709A6BA41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject.Tests", "TestProject.Tests\TestProject.Tests.csproj", "{824C290A-E627-4872-9F32-D3A8399A4703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{CAC1031A-1F78-42B5-B926-58F757992F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAC1031A-1F78-42B5-B926-58F757992F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAC1031A-1F78-42B5-B926-58F757992F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75CD48CB-646D-42C8-BD82-58709A6BA41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CD48CB-646D-42C8-BD82-58709A6BA41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CD48CB-646D-42C8-BD82-58709A6BA41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CD48CB-646D-42C8-BD82-58709A6BA41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824C290A-E627-4872-9F32-D3A8399A4703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824C290A-E627-4872-9F32-D3A8399A4703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824C290A-E627-4872-9F32-D3A8399A4703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824C290A-E627-4872-9F32-D3A8399A4703}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75CD48CB-646D-42C8-BD82-58709A6BA41B} = {29F1652B-2506-4AAE-9827-81CA2EA2175F}
+		{824C290A-E627-4872-9F32-D3A8399A4703} = {29F1652B-2506-4AAE-9827-81CA2EA2175F}
 	EndGlobalSection
 EndGlobal
